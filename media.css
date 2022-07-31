@@ -1,0 +1,175 @@
+
+@media screen and (width: 375px){
+    body{
+        background-image: url(images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    /*head*/
+    .head{
+        
+        padding: 30% 5% 0 ; 
+    }
+
+    .history{
+        margin-top: 20px;
+    }
+
+    .history h1{
+        font-size: 30px;
+        text-align: center;
+        width: 300px;
+    }
+
+    .history p{
+        width: 280px;
+        margin-top: 15px;
+    }
+
+    .button {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    } 
+
+    .button button{
+        width: 100%;
+        padding: 1.4rem 3rem;
+        
+    }
+
+    .keep-track h2{
+        text-align: center;
+    }
+
+    .keep-track p{
+        padding: 0;
+    }
+    /*head end*/
+
+
+    /*section 1*/
+
+    .section1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tv-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .tv-img img{
+        margin-left: 0;
+        width: 350px;
+        max-width: 350px;
+    }
+
+    .info{
+        padding-left: 0;
+    }
+
+    .text-info p:nth-child(1),.text-info p:nth-child(2){
+        text-align: center;
+        width: 200px;
+    }
+    /*section 1 end*/
+
+
+
+    /*section 2*/
+    .section2 h2{
+        text-align: center;
+    }
+
+    .section2 p{
+        text-align: center;
+        width: 350px;
+    }
+    
+    .mobile-img img{
+        width: 350px;
+        max-width: 350px;
+    }
+    /*section 2 end*/
+
+
+
+     /*section 3*/
+    .workflow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+
+    .workflow p{
+        text-align: center;
+        width: 100%
+    }
+
+    .list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list1{
+        margin-top: 40px;
+    }
+
+    .list-text h3{
+        width: 300px;
+    }
+
+    .companies{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .clipboard-text h2{
+        width: 100%;
+    }
+
+    .clipboard-text p{
+        width: 100%;
+    }
+    /*section 3 end*/
+
+    
+    
+    
+    /*footer*/
+    footer{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .logo-footer{
+        margin-bottom: 50px;
+    }
+
+    .links-footer {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .links-footer ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*footer end*/
+}

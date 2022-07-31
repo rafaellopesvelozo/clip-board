@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-family: sans-serif;
+}
+
+:root{
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7% 14% 0 ; 
+}
+.logo img{
+    width: 7rem;
+    max-width: 100%;
+}
+.logo{
+    margin-bottom: 2.2rem;
+}
+
+.history, .button, .keep-track{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.history h1{
+    font-size: 2.5rem;
+    color: var(--Dark-Grayish-Blue);
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.history p{
+    color: var(--Grayish-Blue);
+    width: 33rem;
+    text-align: center;
+    font-size: .9rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.button button a{
+    text-decoration: none;
+    padding: .4rem;
+    color: #ffff;
+}
+.button button{
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button button:nth-child(1){
+    background-color: var(--Strong-Cyan);
+    border: 1px hsl(171, 64%, 34%);
+}
+.button button:nth-child(2){
+    background-color: var(--Light-Blue);
+    border: 1px solid hsl(233, 45%, 50%);
+}
+.button button:nth-child(1):hover{
+    background-color: hsl(171, 34%, 55%);
+    border: 1px hsl(171, 34%, 55%);
+
+}
+.button button:nth-child(2):hover{
+    background-color: hsl(233, 97%, 77%);
+    border: 1px solid hsl(233, 97%, 77%);
+}
+
+/*-------------*/
+
+.keep-track{
+    margin-top: 8rem;
+}
+.keep-track h2{
+    font-size: 2rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: var(--Dark-Grayish-Blue);
+
+}
+.keep-track p{
+    padding: 0 4.5rem;
+    margin-top: 1.5rem;
+    line-height: 1.7rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: var(--Grayish-Blue);
+}
+
+/*section1*/
+
+.section1{
+    display: flex;
+    margin-top: 3rem;
+    overflow: hidden;
+    max-width: 100%;
+    
+}
+.tv-img, .info{
+    width: 50%;  
+}
+
+.tv-img img{
+    margin-left: -1.8rem;
+    max-width: 100%;
+    
+}
+.info{
+    padding-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.text-info p:nth-child(1){
+    color: var(--Dark-Grayish-Blue);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 3.4rem;
+
+}
+.text-info p:nth-child(2){
+    color: var(--Grayish-Blue);
+    font-family: 'Bai Jamjuree', sans-serif;
+    width: 21rem;
+    margin-top: 1rem;
+    line-height: 1.7rem;
+    
+}
+/*section1 end*/
+
+/*section2*/
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+.section2 h2{
+    font-size: 2rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: var(--Dark-Grayish-Blue);
+}
+.section2 p{
+    width: 41rem;
+    margin-top: 1.5rem;
+    line-height: 1.7rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: var(--Grayish-Blue);
+}
+.mobile-img {
+    margin-top: 5rem;
+    
+}
+.mobile-img img{
+    max-width: 100%;
+}
+/*section2 end*/
+
+/*section3*/
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10% 10%;
+}
+.workflow h2{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: var(--Dark-Grayish-Blue);
+}
+.workflow p{
+    width: 41rem;
+    margin-top: 1.5rem;
+    line-height: 1.7rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: var(--Grayish-Blue);
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    
+}
+.list1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list-text{
+    text-align: center;
+}
+.list-text h3{
+    margin-top: 1rem;
+    color: var(--Dark-Grayish-Blue);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.list-text p{
+    color: var(--Grayish-Blue);
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-top: 1rem;
+    line-height: 1.6rem;
+}
+
+.companies{
+    margin-top: 7rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clipboard{
+    margin-top: 8rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clipboard h2{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: var(--Dark-Grayish-Blue);
+}
+.clipboard p{
+    margin-top: 1rem;
+    width: 44rem;
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: var(--Grayish-Blue);
+}
+/*section3 end*/
+
+/*footer*/
+footer{
+    height: 10rem;
+    display: flex;
+    padding: 0 10%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(200, 27%, 96%);
+}
+.logo-footer img{
+    width: 3.5rem;
+}
+
+.links-footer {
+    display: flex;
+    gap: 2rem;
+    margin-right: 20rem;
+}
+.links-footer ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.links-footer ul li:nth-child(1) {
+    margin-bottom: 1rem;
+    
+}
+
+.links-footer ul li a {
+    display: flex;
+    text-decoration: none;  
+    font-size: 1.1rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: var(--Dark-Grayish-Blue);
+    font-weight: 400;
+    transition: .2s;
+}
+.links-footer ul li a:hover{
+    color: var(--Strong-Cyan);
+}
+
+.social-media{
+    display: flex;
+    gap: 1.2rem;
+}
+.social-media a img:hover{
+    filter: invert(56%)
+            sepia(82%)
+            saturate(360%)
+            hue-rotate(122deg)
+            brightness(91%)
+            contrast(97%);
+}
+
+/*footer end*/
